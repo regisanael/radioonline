@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rádio BH Hits</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+    }
+    .navbar {
+      background-color: #000;
+    }
+    .navbar-brand {
+      color: #f00;
+    }
+    .nav-link {
+      color: white;
+    }
+    section {
+      padding: 60px 0;
+    }
+    footer {
+      background-color: #000;
+      color: #aaa;
+      padding: 20px 0;
+      text-align: center;
+    }
+    audio {
+      width: 100%;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href=img>Rádio BH Hits</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#programacao">Programação</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home" class="text-center" style="padding-top: 100px;">
+    <div class="container">
+      <h1 class="display-4">Bem-vindo à Rádio Bh Hits</h1>
+      <p class="lead">Tocando o melhor do funk Bh 24 horas por dia!</p>
+      <audio controls autoplay>
+        <source src="SET DAS PURAS - AS MTG MAIS TOCADAS DE BH 2025.MP3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <div class="container">
+      <h2>Sobre a Rádio</h2>
+      <p>Transmitimos os maiores hits do funk Bh, direto para o seu dispositivo. Nossa missão é levar a batida das comunidades para o mundo inteiro.</p>
+    </div>
+  </section>
+
+  <!-- PROGRAMAÇÃO -->
+  <section id="programacao" class="bg-dark">
+    <div class="container">
+      <h2>Programação</h2>
+      <ul>
+        <li>19h - DJ WS Da Igreginha Ao Vivo</li>
+        <li>20h - DJ Gordão do Pc Ao Vivo</li>
+        <li>21h - DJ Betim ATL Ao Vivo</li>
+        <li>22h - Dj Réginho Ao Vivo</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Email: contato@radiobhhits.com</p>
+      <p></p>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <p>&copy; 2025 Rádio Bh Hits - Todos os direitos reservados</p>
+  </footer>
+
+  <!-- JS do Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
